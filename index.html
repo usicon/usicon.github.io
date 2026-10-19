@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>9th USICON 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="9th Ushuluddin International Conference (USICON) 2026 — From Fasād to Iṣlāḥ: Islamic Thought and Ethics for a Regenerative Civilization. November 10–11, 2026, UIN Sunan Kalijaga Yogyakarta.">
+<meta property="og:title" content="9th USICON 2026 — From Fasād to Iṣlāḥ">
+<meta property="og:description" content="Call for Papers. Ushuluddin International Conference, Nov 10–11, 2026, Convention Hall UIN Sunan Kalijaga Yogyakarta. Submission: Sept 25 – Oct 25, 2026.">
+<meta property="og:image" content="assets/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600&family=Noto+Serif:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+/* Layout: the flyer as a page — pale stone ground with faint diagonal planes, deep-blue panels, gold bands for dates and labels. */
+:root{
+  --ground:#eef1f4;
+  --paper:#ffffff;
+  --ink:#16324d;
+  --ink-soft:#4b5f73;
+  --navy:#0b3a63;
+  --navy-deep:#082b4a;
+  --blue:#3f82b8;
+  --gold-1:#9a6a17;
+  --gold-2:#e8c36a;
+  --gold-text:#b07c1c;
+  --line:#d6dde5;
+  --f-display:"Fira Sans","Segoe UI",Roboto,Arial,sans-serif;
+  --f-body:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif;
+  --f-serif:"Noto Serif",Georgia,"Times New Roman",serif;
+  --gutter-l:max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r:max(16px, env(safe-area-inset-right, 0px));
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{
+  margin:0;font-family:var(--f-body);font-size:16px;line-height:1.65;color:var(--ink);
+  background:
+    linear-gradient(118deg, transparent 0 38%, rgba(255,255,255,.75) 38% 52%, transparent 52%),
+    linear-gradient(152deg, transparent 0 60%, rgba(11,58,99,.035) 60% 74%, transparent 74%),
+    var(--ground);
+  background-attachment:fixed;
+}
+img{max-width:100%;display:block}
+a{color:var(--navy)}
+:focus-visible{outline:3px solid var(--gold-2);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding-left:var(--gutter-l);padding-right:var(--gutter-r)}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+.diac{font-feature-settings:"kern"}
+
+/* Header */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:rgba(255,255,255,.94)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy);flex-shrink:0}
+.brand img{height:42px;width:auto}
+.nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
+.nav a{font-family:var(--f-display);font-weight:600;font-size:14.5px;text-decoration:none;color:var(--ink);padding:8px 11px;border-radius:6px}
+.nav a:hover{background:#e7eef5;color:var(--navy)}
+.nav a.cta{background:var(--navy);color:#fff}
+.nav a.cta:hover{background:var(--navy-deep)}
+.menu-btn{display:none;margin-left:auto;font:600 15px var(--f-display);background:var(--navy);color:#fff;border:0;border-radius:6px;padding:9px 14px;cursor:pointer}
+@media (max-width:920px){
+  .menu-btn{display:block}
+  .nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;padding:8px var(--gutter-r) 14px var(--gutter-l);gap:2px}
+  .nav.open{display:flex}
+  .nav a{padding:11px 12px}
+}
+
+/* Hero */
+.hero{padding-block:56px 40px;text-align:center}
+.badges{display:flex;justify-content:center;margin-bottom:26px}
+.badges img{height:58px;width:auto}
+.edition{font-family:var(--f-display);font-weight:800;color:var(--navy);font-size:clamp(52px,9vw,96px);line-height:1;letter-spacing:-.5px}
+.edition-sub{font-family:var(--f-display);font-weight:600;color:var(--navy);font-size:clamp(19px,2.6vw,27px);margin-top:6px}
+.goldband{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin-top:22px;padding:10px 22px;background:linear-gradient(90deg,var(--gold-1),#c99a3c 55%,var(--gold-2));color:#fff;font-family:var(--f-serif);font-weight:700;font-size:clamp(16px,2.2vw,22px);line-height:1.3}
+.goldband span+span{border-left:2px solid rgba(255,255,255,.7);padding-left:14px}
+@media (max-width:560px){.goldband span+span{border-left:0;padding-left:0}}
+.cfp{display:inline-block;margin-top:30px;padding:6px 18px;border:1.5px solid var(--gold-text);font-family:var(--f-serif);font-weight:700;font-size:clamp(20px,2.6vw,28px);color:var(--gold-text);background:rgba(255,255,255,.6)}
+.cfp i{font-weight:600}
+.theme-main{margin-top:18px;font-weight:700;font-size:clamp(40px,7.4vw,84px);line-height:1.05;background:linear-gradient(90deg,var(--blue),var(--navy) 70%);-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:6px}
+.theme-sub{font-weight:600;font-size:clamp(24px,4vw,46px);line-height:1.15;color:var(--navy);max-width:900px;margin:8px auto 0}
+.hero-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-display);font-weight:700;font-size:16px;text-decoration:none;padding:13px 22px;border-radius:6px;border:2px solid var(--navy);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:linear-gradient(135deg,var(--blue),var(--navy) 60%);color:#fff;border-color:transparent}
+.btn.ghost{background:#fff;color:var(--navy)}
+.btn.gold{background:linear-gradient(90deg,var(--gold-1),#c99a3c);color:#fff;border-color:transparent}
+
+/* Countdown */
+.countdown{margin:40px auto 0;max-width:760px;display:grid;grid-template-columns:auto 1fr;align-items:stretch;background:var(--navy);color:#fff;border-radius:10px;overflow:hidden;text-align:left;box-shadow:0 14px 30px -18px rgba(8,43,74,.7)}
+.cd-label{background:linear-gradient(180deg,var(--gold-1),#c99a3c);padding:16px 20px;font-family:var(--f-serif);font-weight:700;display:flex;flex-direction:column;justify-content:center;line-height:1.3;max-width:220px}
+.cd-label small{font-family:var(--f-body);font-weight:500;font-size:13px;opacity:.92}
+.cd-units{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:14px 16px}
+.cd-units div{text-align:center}
+.cd-units b{display:block;font-family:var(--f-display);font-size:clamp(28px,5vw,40px);font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.cd-units span{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+@media (max-width:560px){.countdown{grid-template-columns:1fr}.cd-label{max-width:none;text-align:center}}
+
+/* Sections */
+section{padding-block:64px}
+.eyebrow{display:inline-block;background:linear-gradient(90deg,var(--gold-1),#c99a3c);color:#fff;font-family:var(--f-serif);font-weight:700;font-size:13.5px;letter-spacing:.06em;padding:3px 10px;margin-bottom:12px}
+h2{font-size:clamp(30px,4.4vw,44px);color:var(--navy);line-height:1.12}
+.lead{font-size:17.5px;color:var(--ink-soft);max-width:68ch;margin:14px 0 0}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:32px}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:40px;align-items:start}
+.about-grid p{margin:0 0 14px;max-width:66ch}
+.about-text{min-width:0}
+.terms{display:grid;gap:14px;margin-top:6px}
+.term{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.term h3{font-family:var(--f-serif);font-size:21px;color:var(--navy)}
+.term h3 small{font-family:var(--f-body);font-weight:500;font-size:15px;color:var(--gold-text);margin-left:6px}
+.term p{margin:6px 0 0;font-size:15px;color:var(--ink-soft)}
+.term.to{background:var(--navy);border-color:var(--navy);color:#fff}
+.term.to h3{color:#fff}.term.to h3 small{color:var(--gold-2)}.term.to p{color:#d7e3ef}
+.arrow{text-align:center;font-family:var(--f-serif);color:var(--gold-text);font-size:22px;line-height:1}
+@media (max-width:820px){.about-grid{grid-template-columns:1fr}}
+
+/* Sub-themes */
+.themes{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:32px}
+.theme{display:grid;grid-template-columns:92px 1fr;align-items:center;gap:18px;background:linear-gradient(115deg,#2d6fa5 0%,var(--navy) 45%,var(--navy-deep) 100%);border-radius:8px;padding:12px 22px 12px 12px;color:#fff;min-height:112px}
+.theme .num{background:#fff;border-radius:6px;height:88px;display:grid;place-items:center;font-family:var(--f-serif);font-weight:700;font-size:58px;line-height:1;color:var(--gold-text);background-image:linear-gradient(#fff,#f3f5f8)}
+.theme .num span{background:linear-gradient(180deg,var(--gold-2),var(--gold-1) 75%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.theme div:last-child{min-width:0}
+.theme h3{font-family:var(--f-body);font-size:17px;font-weight:600;line-height:1.35}
+.theme p{margin:3px 0 0;font-size:15.5px;line-height:1.4;color:#dbe7f2}
+@media (max-width:820px){.themes{grid-template-columns:1fr}}
+@media (max-width:440px){.theme{grid-template-columns:64px 1fr;gap:14px;padding-right:16px}.theme .num{height:70px;font-size:44px}}
+
+/* Speakers */
+.speakers{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:34px}
+.speaker figure{margin:0}
+.speaker img{width:100%;aspect-ratio:228/274;object-fit:cover;border-radius:12px;background:var(--navy)}
+.tag{display:inline-block;margin-top:14px;background:linear-gradient(90deg,var(--gold-1),#c99a3c);color:#fff;font-family:var(--f-serif);font-weight:700;font-size:12px;padding:2px 8px;border-radius:3px}
+.speaker h3{font-family:var(--f-serif);font-weight:600;font-size:21px;color:#2f6fa4;line-height:1.2;margin-top:6px}
+.speaker p{margin:6px 0 0;font-size:14px;line-height:1.45;color:var(--ink-soft)}
+@media (max-width:900px){.speakers{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:420px){.speakers{gap:16px}.speaker h3{font-size:18px}}
+
+/* Dates */
+.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:34px;background:var(--paper);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.step{padding:24px 26px;position:relative}
+.step+.step{border-left:1px solid var(--line)}
+.step .when{font-family:var(--f-serif);font-weight:700;font-size:23px;color:var(--navy);line-height:1.25;font-variant-numeric:tabular-nums}
+.step .what{font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-text);margin-bottom:6px}
+.step p{margin:8px 0 0;font-size:15px;color:var(--ink-soft)}
+.step.now{background:#f3f7fb}
+.status{display:inline-block;margin-top:10px;font-size:12.5px;font-weight:600;padding:2px 9px;border-radius:99px;background:#e1ebf4;color:var(--navy)}
+.status.open{background:#dcf1e3;color:#17643a}
+.status.closed{background:#eceff2;color:#5b6773}
+@media (max-width:760px){.timeline{grid-template-columns:1fr}.step+.step{border-left:0;border-top:1px solid var(--line)}}
+
+/* Submission */
+.sub-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;margin-top:30px;align-items:start}
+.reqs{list-style:none;margin:0;padding:0;counter-reset:r}
+.reqs li{counter-increment:r;display:grid;grid-template-columns:34px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.reqs li:last-child{border-bottom:0}
+.reqs li::before{content:counter(r);width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-family:var(--f-display);font-weight:700;font-size:14px;margin-top:1px}
+.howto{background:var(--navy);color:#fff;border-radius:10px;padding:28px}
+.howto h3{font-size:22px}
+.howto p{color:#d7e3ef;margin:8px 0 18px;font-size:15px}
+.howto .btn{width:100%;justify-content:center;margin-top:10px}
+.howto .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.55)}
+.howto .note{font-size:13px;color:#b9cde0;margin-top:14px}
+.btn[aria-disabled="true"]{opacity:.55;pointer-events:none}
+@media (max-width:820px){.sub-grid{grid-template-columns:1fr}}
+
+/* Venue & contact */
+.vc-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+.card h3{font-size:22px;color:var(--navy)}
+.card p{margin:8px 0 0;color:var(--ink-soft)}
+.phone{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:14px}
+.phone code{font-family:var(--f-display);font-weight:700;font-size:22px;color:var(--navy);user-select:all;font-variant-numeric:tabular-nums}
+.copy{font:600 13px var(--f-display);border:1px solid var(--line);background:#f4f7fa;color:var(--navy);border-radius:5px;padding:5px 10px;cursor:pointer}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+@media (max-width:760px){.vc-grid{grid-template-columns:1fr}}
+
+.flyer-sec .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center}
+.flyer-sec img{border-radius:10px;box-shadow:0 20px 40px -24px rgba(8,43,74,.55);border:1px solid var(--line)}
+@media (max-width:760px){.flyer-sec .wrap{grid-template-columns:1fr}}
+
+footer{background:var(--navy-deep);color:#c9d8e6;margin-top:40px}
+footer .wrap{padding-block:34px;display:flex;flex-wrap:wrap;gap:20px 40px;justify-content:space-between;font-size:14.5px}
+footer a{color:#fff}
+footer b{color:#fff;font-family:var(--f-display)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="UIN Sunan Kalijaga Yogyakarta — 9th USICON home">
+      <img src="assets/logo-uin.png" alt="State Islamic University Sunan Kalijaga Yogyakarta" width="518" height="115">
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#subthemes">Sub-themes</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#dates">Dates</a>
+      <a href="#venue">Venue</a>
+      <a href="#contact">Contact</a>
+      <a class="cta" href="#submission">Submit Paper</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero" id="home">
+  <div class="wrap">
+    <div class="badges"><img src="assets/badges.png" alt="Akreditasi Unggul, BLU Speed, SUKA" width="405" height="115"></div>
+    <div class="edition">9th USICON</div>
+    <div class="edition-sub">Ushuluddin International Conference</div>
+    <div><div class="goldband"><span>Nov 10th – 11th 2026</span><span>Convention Hall UIN Sunan Kalijaga Yogyakarta</span></div></div>
+    <div class="cfp">Call For Papers <i>on:</i></div>
+    <h1>
+      <span class="theme-main" style="display:block">From Fasād to Iṣlāḥ:</span>
+      <span class="theme-sub" style="display:block">Islamic Thought and Ethics for a Regenerative Civilization</span>
+    </h1>
+    <div class="hero-actions">
+      <a class="btn primary" href="#submission">Submit Your Paper</a>
+      <a class="btn ghost" href="#subthemes">See the 8 Sub-themes</a>
+    </div>
+
+    <div class="countdown" aria-live="polite">
+      <div class="cd-label" id="cdLabel">Paper submission closes<small>October 25, 2026 · 23:59 WIB</small></div>
+      <div class="cd-units">
+        <div><b id="cdD">--</b><span>Days</span></div>
+        <div><b id="cdH">--</b><span>Hours</span></div>
+        <div><b id="cdM">--</b><span>Min</span></div>
+        <div><b id="cdS">--</b><span>Sec</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-text">
+      <span class="eyebrow">About the Conference</span>
+      <h2>From corruption and ruin toward repair and renewal</h2>
+      <p class="lead">The Faculty of Ushuluddin and Islamic Thought, UIN Sunan Kalijaga Yogyakarta, invites scholars, researchers, postgraduate students, and practitioners to the 9th Ushuluddin International Conference (USICON), held on November 10–11, 2026, at the Convention Hall of UIN Sunan Kalijaga Yogyakarta.</p>
+      <p style="margin-top:14px">Our world is marked by ecological disasters, eroding public trust, violence against human dignity, economic inequality, and the growing power of algorithms over what people know and believe. This year's theme asks how Islamic thought and ethics can name these forms of <em>fasād</em> and shape practices of <em>iṣlāḥ</em> that heal, rebuild, and renew, toward a civilization that regenerates rather than depletes.</p>
+      <p>Papers are welcome from the Qur'anic and Prophetic sciences, theology, philosophy, Sufism, comparative religion, and the social sciences, as long as they engage one of the eight sub-themes.</p>
+    </div>
+    <div class="terms" aria-label="Key terms">
+      <div class="term">
+        <h3>Fasād <small>فساد</small></h3>
+        <p>Corruption, decay, and disorder, in the earth, in institutions, and in the human self.</p>
+      </div>
+      <div class="arrow" aria-hidden="true">↓</div>
+      <div class="term to">
+        <h3>Iṣlāḥ <small>إصلاح</small></h3>
+        <p>Repair, reconciliation, and reform: the ethical work of restoring what has been damaged.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="subthemes">
+  <div class="wrap">
+    <span class="eyebrow">Call for Papers</span>
+    <h2>Sub-themes</h2>
+    <p class="lead">Submit a paper addressing one of the following eight sub-themes.</p>
+    <div class="themes">
+      <div class="theme"><div class="num"><span>1</span></div><div><h3>Fasād and Iṣlāḥ in Qur'anic and Prophetic Thought</h3><p>Hermeneutics, Ethics, and Social Transformation</p></div></div>
+      <div class="theme"><div class="num"><span>2</span></div><div><h3>Islamic Environmental Ethics</h3><p>Eco-Theology, Disasters, and Human Responsibility</p></div></div>
+      <div class="theme"><div class="num"><span>3</span></div><div><h3>Islamic Political Ethics</h3><p>Authority, Public Trust, Corruption, and Institutional Iṣlāḥ</p></div></div>
+      <div class="theme"><div class="num"><span>4</span></div><div><h3>Islamic Moral Economy</h3><p>Consumerism, Inequality, and the Ethics of Economic Iṣlāḥ</p></div></div>
+      <div class="theme"><div class="num"><span>5</span></div><div><h3>Artificial Intelligence and Islamic Epistemology</h3><p>Algorithms, Knowledge, Truth, and Human Agency</p></div></div>
+      <div class="theme"><div class="num"><span>6</span></div><div><h3>Human Dignity and Islamic Ethics</h3><p>Gender, Bodily Integrity, Violence, and Social Repair</p></div></div>
+      <div class="theme"><div class="num"><span>7</span></div><div><h3>Sufism, Spirituality, and Ethical Transformation</h3><p>Healing, Resilience, and Practices of Iṣlāḥ</p></div></div>
+      <div class="theme"><div class="num"><span>8</span></div><div><h3>Interreligious Ethics and Civilizational Futures</h3><p>Dialogue, Social Reconstruction, and Regenerative Imagination</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="speakers">
+  <div class="wrap">
+    <span class="eyebrow">Keynote</span>
+    <h2>Speakers</h2>
+    <div class="speakers">
+      <div class="speaker"><figure><img src="assets/speaker-1.jpg" alt="Prof. Mohammad Sharifani, Ph.D." width="420" height="505" loading="lazy"></figure>
+        <span class="tag">Speaker</span><h3>Prof. Mohammad Sharifani, Ph.D.</h3><p>Allameh Tabataba'i University, Tehran, Iran &amp; Director of Islamic Cultural Center (ICC)</p></div>
+      <div class="speaker"><figure><img src="assets/speaker-2.jpg" alt="Assoc. Prof. Mark Woodward, Ph.D." width="420" height="505" loading="lazy"></figure>
+        <span class="tag">Speaker</span><h3>Assoc. Prof. Mark Woodward, Ph.D.</h3><p>Arizona State University, United States of America</p></div>
+      <div class="speaker"><figure><img src="assets/speaker-3.jpg" alt="Prof. F.J.S. Wijsen (Frans), Ph.D." width="420" height="505" loading="lazy"></figure>
+        <span class="tag">Speaker</span><h3>Prof. F.J.S. Wijsen (Frans), Ph.D.</h3><p>Radboud University, Nijmegen, Netherlands</p></div>
+      <div class="speaker"><figure><img src="assets/speaker-4.jpg" alt="Dr. Muhammad Arif Yahya" width="420" height="505" loading="lazy"></figure>
+        <span class="tag">Speaker</span><h3>Dr. Muhammad Arif Yahya</h3><p>Universiti Kebangsaan Malaysia, Malaysia</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="dates">
+  <div class="wrap">
+    <span class="eyebrow">Schedule</span>
+    <h2>Important Dates</h2>
+    <div class="timeline">
+      <div class="step" data-start="2026-09-25T00:00:00+07:00" data-end="2026-10-25T23:59:59+07:00">
+        <div class="what">Paper Submission</div>
+        <div class="when">Sept 25 – Oct 25, 2026</div>
+        <p>Full papers in English via the USICON OJS, plus the registration form.</p>
+        <span class="status"></span>
+      </div>
+      <div class="step" data-start="2026-10-26T00:00:00+07:00" data-end="2026-11-09T23:59:59+07:00">
+        <div class="what">Review &amp; Selection</div>
+        <div class="when">Before the conference</div>
+        <p>Selected papers are invited to present. Authors will be notified by the committee.</p>
+        <span class="status"></span>
+      </div>
+      <div class="step" data-start="2026-11-10T00:00:00+07:00" data-end="2026-11-11T23:59:59+07:00">
+        <div class="what">Conference</div>
+        <div class="when">Nov 10 – 11, 2026</div>
+        <p>Convention Hall, UIN Sunan Kalijaga Yogyakarta.</p>
+        <span class="status"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="submission">
+  <div class="wrap">
+    <span class="eyebrow">Submission</span>
+    <h2>Paper Requirements</h2>
+    <div class="sub-grid">
+      <div class="panel">
+        <ol class="reqs">
+          <li><span>Papers must be written in <strong>English</strong>.</span></li>
+          <li><span>Papers must follow the <strong>author guidelines and template</strong>.</span></li>
+          <li><span>All papers must be submitted through the <strong>USICON OJS</strong>.</span></li>
+          <li><span>Participants must complete the designated <strong>Google Form</strong> at <a href="https://s.id/USICON-submissionform" target="_blank" rel="noopener">s.id/USICON-submissionform</a>.</span></li>
+          <li><span>The best papers will be selected for presentation and for publication in the proceedings of a reputable international publisher, subject to the publisher's editorial review and requirements, including additional fees where applicable.</span></li>
+        </ol>
+      </div>
+      <aside class="howto">
+        <h3>Ready to submit?</h3>
+        <p>Upload your full paper to the OJS, then fill in the registration form. Deadline: October 25, 2026.</p>
+        <a class="btn gold" href="https://s.id/USICON-submissionform" target="_blank" rel="noopener">Fill in the Submission Form</a>
+        <a class="btn ghost" id="ojsLink" href="#" target="_blank" rel="noopener">Submit via USICON OJS</a>
+        <a class="btn ghost" id="tplLink" href="#" target="_blank" rel="noopener">Author Guidelines &amp; Template</a>
+        <div class="note" id="linkNote">The OJS and template links will be posted here soon.</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="venue">
+  <div class="wrap">
+    <span class="eyebrow">Venue &amp; Contact</span>
+    <h2>Where to find us</h2>
+    <div class="vc-grid">
+      <div class="panel card">
+        <h3>Convention Hall UIN Sunan Kalijaga</h3>
+        <p>Jl. Laksda Adisucipto, Papringan, Caturtunggal, Depok, Sleman, Daerah Istimewa Yogyakarta</p>
+        <p>November 10–11, 2026</p>
+        <div class="links"><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Convention+Hall+UIN+Sunan+Kalijaga+Yogyakarta" target="_blank" rel="noopener">Open in Google Maps</a></div>
+      </div>
+      <div class="panel card" id="contact">
+        <h3>Contact Person</h3>
+        <p>Nurhaliza (WhatsApp)</p>
+        <div class="phone"><code id="phone">0822-8300-4228</code><button class="copy" id="copyBtn" type="button">Copy</button></div>
+        <div class="links">
+          <a class="btn primary" href="https://wa.me/6282283004228?text=Assalamu%27alaikum%2C%20I%20would%20like%20to%20ask%20about%20the%209th%20USICON%202026." target="_blank" rel="noopener">Chat on WhatsApp</a>
+          <a class="btn ghost" href="https://ushuluddin.uin-suka.ac.id/" target="_blank" rel="noopener">Faculty Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="flyer-sec">
+  <div class="wrap">
+    <img src="assets/flyer.jpg" alt="Official 9th USICON 2026 Call for Papers flyer" width="1080" height="1350">
+    <div>
+      <span class="eyebrow">Spread the word</span>
+      <h2>Official flyer</h2>
+      <p class="lead">Share the call for papers with colleagues and students. Open the full-size flyer to save or forward it.</p>
+      <div class="links"><a class="btn primary" href="assets/flyer.jpg" target="_blank" rel="noopener">Open full-size flyer</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>9th USICON 2026</b><br>Faculty of Ushuluddin and Islamic Thought<br>UIN Sunan Kalijaga Yogyakarta</div>
+    <div><b>Follow us</b><br>Instagram: <a href="https://www.instagram.com/fupiuinsuka/" target="_blank" rel="noopener">@fupiuinsuka</a><br>YouTube: <a href="https://www.youtube.com/@Fupiuinsuka" target="_blank" rel="noopener">Fupiuinsuka</a></div>
+    <div><b>Website</b><br><a href="https://ushuluddin.uin-suka.ac.id/" target="_blank" rel="noopener">ushuluddin.uin-suka.ac.id</a></div>
+  </div>
+</footer>
+
+<script>
+/* ===== Edit these links when they are ready ===== */
+const LINKS = {
+  ojs: "",       // e.g. "https://ejournal.uin-suka.ac.id/ushuluddin/usicon"
+  template: ""   // e.g. link to the author guidelines/template (Google Drive, etc.)
+};
+/* ================================================ */
+
+(function(){
+  const ojs=document.getElementById('ojsLink'), tpl=document.getElementById('tplLink'), note=document.getElementById('linkNote');
+  [[ojs,LINKS.ojs],[tpl,LINKS.template]].forEach(([a,url])=>{ if(url){a.href=url}else{a.setAttribute('aria-disabled','true');a.removeAttribute('href')} });
+  if(LINKS.ojs && LINKS.template) note.hidden=true;
+
+  const btn=document.getElementById('menuBtn'), nav=document.getElementById('nav');
+  btn.addEventListener('click',()=>{const o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false')}));
+
+  document.getElementById('copyBtn').addEventListener('click',e=>{
+    const t='082283004228', b=e.currentTarget;
+    const done=()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1600)};
+    const fallback=()=>{const r=document.createRange();r.selectNodeContents(document.getElementById('phone'));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected'};
+    try{navigator.clipboard.writeText(t).then(done,fallback)}catch(_){fallback()}
+  });
+
+  const deadline=new Date('2026-10-25T23:59:59+07:00'), conf=new Date('2026-11-10T08:00:00+07:00'), confEnd=new Date('2026-11-11T23:59:59+07:00');
+  const lab=document.getElementById('cdLabel'), el=id=>document.getElementById(id);
+  const pad=n=>String(n).padStart(2,'0');
+  function tick(){
+    const now=new Date(); let target=deadline;
+    if(now>deadline && now<conf){target=conf;lab.innerHTML='Conference begins<small>November 10, 2026 · UIN Sunan Kalijaga</small>'}
+    else if(now>=conf && now<=confEnd){lab.innerHTML='The conference is underway<small>November 10–11, 2026</small>';target=now}
+    else if(now>confEnd){lab.innerHTML='Thank you for joining<small>9th USICON · November 10–11, 2026</small>';target=now}
+    let d=Math.max(0,target-now);
+    el('cdD').textContent=Math.floor(d/864e5); d%=864e5;
+    el('cdH').textContent=pad(Math.floor(d/36e5)); d%=36e5;
+    el('cdM').textContent=pad(Math.floor(d/6e4)); d%=6e4;
+    el('cdS').textContent=pad(Math.floor(d/1e3));
+  }
+  tick(); setInterval(tick,1000);
+
+  const now=new Date();
+  document.querySelectorAll('.step').forEach(s=>{
+    const st=new Date(s.dataset.start), en=new Date(s.dataset.end), tag=s.querySelector('.status');
+    if(now<st){tag.textContent='Upcoming'}
+    else if(now<=en){tag.textContent='Open now';tag.classList.add('open');s.classList.add('now')}
+    else{tag.textContent='Closed';tag.classList.add('closed')}
+  });
+})();
+</script>
+</body>
+</html>

@@ -238,3 +238,20 @@ h1.h2{font-size:clamp(30px,4.4vw,44px);color:var(--navy);line-height:1.12}
 .flyer-full{padding-block:56px 64px}
 .flyer-full .wrap{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center}
 .flyer-full img{width:100%;max-width:1080px;height:auto;border-radius:10px;box-shadow:0 24px 50px -28px rgba(8,43,74,.6);border:1px solid var(--line)}
+
+/* Keynote speaker profiles */
+.kn-list{display:grid;gap:22px;margin-top:32px}
+.kn{display:grid;grid-template-columns:220px 1fr;gap:28px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:24px;scroll-margin-top:90px}
+.kn img{width:100%;height:auto;align-self:start;aspect-ratio:228/274;object-fit:cover;border-radius:10px;background:var(--navy)}
+.kn-body{min-width:0}
+.kn-body .tag{margin-top:0}
+.kn h2{font-family:var(--f-serif);font-weight:600;font-size:clamp(22px,2.6vw,27px);color:#2f6fa4;line-height:1.2;margin-top:8px}
+.kn-aff{margin:4px 0 0;font-weight:600;color:var(--ink);font-size:15px}
+.kn-bio{margin:12px 0 0;color:var(--ink-soft);max-width:72ch}
+.kn-tags{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.kn-tags li{font-size:13px;font-weight:600;color:var(--navy);background:#e7eef5;border-radius:99px;padding:3px 11px}
+.kn-topic{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.kn-topic b{font-family:var(--f-display);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-text)}
+.kn-topic span{font-family:var(--f-serif);font-weight:600;color:var(--navy)}
+@media (max-width:700px){.kn{grid-template-columns:1fr;padding:18px}.kn img{max-width:240px}}
+.speaker a.more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600}

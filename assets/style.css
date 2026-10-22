@@ -255,3 +255,29 @@ h1.h2{font-size:clamp(30px,4.4vw,44px);color:var(--navy);line-height:1.12}
 .kn-topic span{font-family:var(--f-serif);font-weight:600;color:var(--navy)}
 @media (max-width:700px){.kn{grid-template-columns:1fr;padding:18px}.kn img{max-width:240px}}
 .speaker a.more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600}
+
+/* Fit hero and keynote row within one laptop screen (sizes follow viewport height) */
+.hero{padding-block:clamp(20px,4vh,48px) clamp(24px,4vh,40px)}
+.badges{margin-bottom:clamp(10px,2vh,22px)}
+.badges img{height:clamp(34px,6vh,54px)}
+.edition{font-size:clamp(42px,min(8vw,9.5vh),92px)}
+.edition-sub{font-size:clamp(17px,min(2.4vw,3.2vh),26px);margin-top:2px}
+.goldband{margin-top:clamp(10px,2vh,20px);padding:clamp(6px,1.2vh,10px) 20px;font-size:clamp(15px,min(2vw,2.8vh),21px)}
+.cfp{margin-top:clamp(12px,2.6vh,26px);padding:4px 16px;font-size:clamp(17px,min(2.4vw,3.2vh),26px)}
+.theme-main{margin-top:clamp(8px,1.6vh,16px);font-size:clamp(34px,min(6.6vw,8.6vh),80px)}
+.theme-sub{font-size:clamp(20px,min(3.4vw,4.4vh),40px);max-width:1080px;margin-top:2px}
+.hero-actions{margin-top:clamp(14px,2.6vh,28px)}
+.btn{padding:11px 20px}
+.countdown{margin-top:clamp(14px,2.6vh,32px)}
+.cd-label{padding:10px 18px;max-width:260px}
+.cd-units{padding:8px 14px}
+.cd-units b{font-size:clamp(24px,min(4vw,4.6vh),36px)}
+.cd-units span{font-size:11px}
+
+#speakers.home-speakers{padding-block:clamp(28px,5vh,56px)}
+.speakers{margin-top:clamp(16px,3vh,30px);gap:22px}
+.speaker img{aspect-ratio:auto;height:clamp(190px,38vh,320px);object-fit:cover;object-position:50% 15%}
+.speaker h3{font-size:clamp(17px,2.4vh,20px)}
+.speaker p{font-size:13.5px}
+.tag{margin-top:10px}
+@media (max-width:900px){.speaker img{height:auto;aspect-ratio:228/274}}

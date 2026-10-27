@@ -21,7 +21,7 @@ const LINKS = {
     try{navigator.clipboard.writeText(t).then(done,fallback)}catch(_){fallback()}
   });
 
-  const deadline=new Date('2026-10-25T23:59:59+07:00'), conf=new Date('2026-11-10T08:00:00+07:00'), confEnd=new Date('2026-11-11T23:59:59+07:00');
+  const deadline=new Date('2026-10-30T23:59:59+07:00'), conf=new Date('2026-11-10T08:00:00+07:00'), confEnd=new Date('2026-11-11T23:59:59+07:00');
   const lab=document.getElementById('cdLabel'), el=id=>document.getElementById(id);
   const pad=n=>String(n).padStart(2,'0');
   function tick(){

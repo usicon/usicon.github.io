@@ -281,3 +281,4 @@ h1.h2{font-size:clamp(30px,4.4vw,44px);color:var(--navy);line-height:1.12}
 .speaker p{font-size:13.5px}
 .tag{margin-top:10px}
 @media (max-width:900px){.speaker img{height:auto;aspect-ratio:228/274}}
+.step .ext{margin:6px 0 0;display:inline-block;font-size:12.5px;font-weight:600;color:var(--gold-1);background:#fbf3df;border-radius:4px;padding:2px 8px}
